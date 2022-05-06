@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: 400;
+    color: #948392;
+    text-shadow: 2px 2px 2px black;
+}
+
+.parrafo{
+    margin-top: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: #AFC1D6;
+    text-shadow: 2px 2px 2px black;
+}
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: inline-block;
+
+    background-image: url('backrosa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 50px;
+    
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+main img{
+    width: 80%;
+    max-width: 600px;
+    object-fit: cover;
+    border-radius: 20%;
+    transform: rotateY(360deg) ;
+    transition: all 4s;
+}
+
+
+
+
